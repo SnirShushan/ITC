@@ -14,7 +14,7 @@ const navbar = () => {
         <Navbar className="bg-dark">
         <Nav>
           <Nav.Link>
-            <Link to="./" className="nav-link">
+            <Link to="./Home" className="nav-link">
               <h2 className="text-white m-1">I.T.C - Site</h2>
             </Link>
           </Nav.Link>
@@ -32,7 +32,7 @@ const navbar = () => {
           </Nav.Link>
 
           <Nav.Link>
-            <Link to="./Products" className="nav-link">
+            <Link to="./Icon" className="nav-link">
               <h2 className="text-white m-1">Brands</h2>
             </Link>
           </Nav.Link>
